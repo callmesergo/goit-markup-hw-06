@@ -868,13 +868,15 @@ transform: translateY(-50%);
     color: var(--accent-color);
 }
 .label-form-name {
-margin-top: 10px;
 margin-bottom: 4px;
 color: var(--primary-text-color);
 font-style: Regular;
 font-size: 12px;
 line-height: 1.16;
  display: inline-block;
+}
+.label-form-name:not(:first-child){
+    margin-top: 10px;
 }
 .submit-modal-btn {
 margin-top: 30px;
